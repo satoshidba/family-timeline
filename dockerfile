@@ -1,5 +1,5 @@
 # Stage 1: Build the React application
-FROM node:23-alpine AS build-stage
+FROM node:22-alpine AS build-stage
 WORKDIR /app
 
 # Copy package.json and package-lock.json (or yarn.lock)
